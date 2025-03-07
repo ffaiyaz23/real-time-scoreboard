@@ -1,4 +1,4 @@
-package com.example.user_service.model;
+package com.example.user_service.dto;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;

@@ -1,6 +1,6 @@
 package com.example.user_service.repo;
 
-import com.example.user_service.model.User;
+import com.example.user_service.dto.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

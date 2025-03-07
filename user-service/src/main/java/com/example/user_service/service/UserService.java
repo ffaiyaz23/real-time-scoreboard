@@ -2,7 +2,7 @@ package com.example.user_service.service;
 
 import com.example.user_service.dto.UserRegistrationRequest;
 import com.example.user_service.dto.UserLoginRequest;
-import com.example.user_service.model.User;
+import com.example.user_service.dto.User;
 import com.example.user_service.repo.UserRepo;
 import com.example.user_service.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
