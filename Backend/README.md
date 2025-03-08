@@ -113,3 +113,5 @@ Each microservice (and the gateway) uses JWT for authentication. The JWT secret 
 - **Redis**: Can be run locally using Docker:
   ```bash
   docker run --name redis -p 6379:6379 redis
+
+For any questions or issues, please contact faiz23011faiyaz@gmail.com.
