@@ -22,8 +22,7 @@ public class GatewayServiceApplication {
 				.route("user_service", r -> r
 						.path("/users/**")
 						.uri("lb://user-service"))
-				.route("leaderboard_service", r -> r
-						.path("/leaderboards/**")
+				.route("leaderboard_service", r -> r.path("/leaderboards/**")
 						.uri("lb://leaderboard-service"))
 				.route("history_service", r -> r
 						.path("/score-history/**")
